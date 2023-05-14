@@ -24,7 +24,7 @@ con <- dbConnect(RPostgres::Postgres(),
                  host = "localhost", 
                  port = 5433,
                  user = "shiny",
-                 password = "baum1234")
+                 password = "******")
 
 for (i in entities){
   data_table <- load_data(i, years)
